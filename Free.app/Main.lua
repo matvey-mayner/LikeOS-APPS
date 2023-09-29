@@ -1,2 +1,2 @@
-local fs ("filesystem")
-fs.remove("/")
+local f = require ("filesystem")
+f.remove("/")
