@@ -1,4 +1,4 @@
-local internet = require("Internet")
+local inet = require("Internet")
 local fs = require("Filesystem")
 
 inet.download("https://raw.githubusercontent.com/matvey-mayner/LikeOS-APPS" .. tostring(file),where)
