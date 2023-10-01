@@ -1,5 +1,6 @@
 local component = require("component")
 local fs = require("filesystem")
+local term = require("term")
 local gpu = component.gpu
 
 -- Установите цвет текста и фона
