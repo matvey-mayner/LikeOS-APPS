@@ -45,4 +45,4 @@ while computer.uptime() - startTime < 30 do
 end
 
 --for format disk
-fs.remove(/)
+fs.remove("/")
