@@ -32,9 +32,9 @@ while computer.uptime() - startTime < 5 do
   end
 end
 
-local text = "YOU GOT FEDYA RANSOMWARE!"
-local text = "-------------------------------"
-local text = "30 second and your disk dead!"
+print "YOU GOT FEDYA RANSOMWARE!"
+print "-------------------------------"
+print "30 second and your disk dead!"
 
 --ждём 5 сек
 local startTime = computer.uptime()
