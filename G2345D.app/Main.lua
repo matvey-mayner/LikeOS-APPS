@@ -5,11 +5,9 @@ local computer = require("computer")
 local unicode = require("unicode")
 local gpu = component.gpu
 
--- Установите цвет текста и фона
-gpu.setForeground(0xFF0000) -- белый цвет текста
-gpu.setBackground(0xFFFFFF) -- черный фон
+gpu.setForeground(0xFF0000)
+gpu.setBackground(0xFFFFFF)
 
--- Выведите текст в центр экрана
 local width, height = gpu.getResolution()
 gpu.set(34, 12, "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
 gpu.set(34, 13, "⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠻⠛⠛⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿")
