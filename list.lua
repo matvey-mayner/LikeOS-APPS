@@ -36,6 +36,6 @@ local list = {
         path = "/data/apps/gadai.app",
         urlPrimaryPart = selfurlpart .. "/apps/gadai.app/",
         files = {"main.lua", "icon.t2p", "game.lua"}
-    }
+    }}
 
 return list
