@@ -34,7 +34,7 @@ local list = {
         libs = {"openbox"},
 
         path = "/data/apps/gadai.app",
-        urlPrimaryPart = selfurlpart .. "/apps/gadai.app/",
+        urlPrimaryPart = selfurlpart .. "/gadai.app/",
         files = {"main.lua", "icon.t2p", "game.lua"}
     }}
 
