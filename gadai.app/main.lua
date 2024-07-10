@@ -5,4 +5,4 @@ local system = require("system")
 -----------------------------------------------
 
 local screen = ...
-openbox.runWithSplash(screen, system.getResourcePatch("game.lua"))
+openbox.runWithSplash(screen, system.getResourcePath("game.lua"))
