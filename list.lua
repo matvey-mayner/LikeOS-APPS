@@ -35,7 +35,7 @@ local list = {
 
         path = "/data/apps/gadai.app",
         urlPrimaryPart = selfurlpart .. "/gadai.app/",
-        license = selfurlpart .. "/gadai.app/LICENSE",
+        license = selfurlpart .. "/LICENSE",
         files = {"main.lua", "icon.t2p", "game.lua"}
     }
 }
