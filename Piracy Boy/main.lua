@@ -45,7 +45,7 @@ computer.beep(1000, 0.1)
 computer.beep(1000, 0.1)
 computer.beep(1000, 0.1)
 
-os.sleep(0.16)
+os.sleep(0.18)
 
 gpu.set(27, 2, "Ваша Система Теперь Захввачена!")
 os.sleep(0.05)
