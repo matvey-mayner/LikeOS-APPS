@@ -38,7 +38,7 @@ local function playGame()
         gpu.set(1, math.floor(25 / 2) + 5, "Загаданное число меньше.                                ")
       else
         gpu.set(1, math.floor(25 / 2) + 5, "Поздравляю! Вы угадали число за " .. attempts .. " попыток.")
-        os.sleep(8)
+        os.sleep(4)
         break
       end
     else
