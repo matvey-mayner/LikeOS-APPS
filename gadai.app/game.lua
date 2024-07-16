@@ -1,5 +1,6 @@
 local component = require("component")
 local term = require("term")
+local os = require("os")
 local gpu = component.gpu
 
 gpu.setResolution(80, 25)
@@ -37,6 +38,7 @@ local function playGame()
         gpu.set(1, math.floor(25 / 2) + 5, "Загаданное число меньше.                                ")
       else
         gpu.set(1, math.floor(25 / 2) + 5, "Поздравляю! Вы угадали число за " .. attempts .. " попыток.")
+        os.sleep(14)
         break
       end
     else
